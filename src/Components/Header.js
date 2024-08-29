@@ -13,6 +13,7 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { Link as RouterLink } from 'react-router-dom';
 import logo from '../Assets/Images/Logo_opbeige.png';
 /*import logo2 from '../Assets/Images/Logo_optransparant.png';*/
+/*import logo3 from '../Assets/Images/Logo_zwart-wit.png';*/
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
