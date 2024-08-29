@@ -1,6 +1,9 @@
 import React from 'react';
 import { Box, Heading, Link, Image, Text, Container } from '@chakra-ui/react';
 import headerimg from '../Assets/Images/herenboeren_kopafbeelding.jpg';
+import watimg from '../Assets/Images/Ivar-Pel-10-1024x683-600x300.jpg';
+import hoeimg from '../Assets/Images/Uitleveren-foto-Marc-Bolsius-2-1024x683-600x300.jpg';
+import waarimg from '../Assets/Images/Ivar-Pel-33-1024x683-600x300.jpg';
 
 const Home = () => {
   return (
@@ -17,7 +20,43 @@ const Home = () => {
             Wij willen grip op ons eten, gezond eten, weten waar het vandaan komt en hoe het geproduceerd wordt.
           </Text>
         </Box>
-      </Container>          
+      </Container>
+      <Container as="main" maxW="container.xl" py={1}>
+        <Box as="section" mb={8}>
+          <Heading as="h2" size="md">Wat is een Herenboerderij?</Heading>
+          <Image src={watimg} alt="Foto Wat" w="50%" />
+          <Text>
+            Wij willen een goed georganiseerde coöperatieve boerderij opzetten. 
+            Het wordt een plek waar duurzaam, puur en eerlijk voedsel wordt geproduceerd exclusief voor de leden-Herenboeren: 
+            groenten, aardappelen, fruit, eieren, rund-, varkens- en kippenvlees. 
+            Een ervaren boer is straks verantwoordelijk voor het werk op de boerderij. 
+            Alles is van een hoge kwaliteit en de prijs is vergelijkbaar met die van de supermarkt. 
+            Het wordt een plek waar het goed toeven is voor mens en dier.
+          </Text>
+        </Box>
+      </Container>
+      <Container as="main" maxW="container.xl" py={1}>
+        <Box as="section" mb={8}>
+          <Heading as="h2" size="md">Hoe werkt het?</Heading>
+          <Image src={hoeimg} alt="Foto Hoe" w="50%" />
+          <Text>
+            Om in de regio een Herenboerderij op te starten, 
+            zijn minimaal 150 deelnemende huishoudens nodig. 
+            Daarom zijn we een zoektocht gestart naar mensen die met ons zo’n kleinschalige boerderij willen oprichten en exploiteren. 
+            Ben jij enthousiast? Laat het ons weten en vertel anderen over dit initiatief.
+          </Text>
+        </Box>
+      </Container>
+      <Container as="main" maxW="container.xl" py={1}>
+        <Box as="section" mb={8}>
+          <Heading as="h2" size="md">Waar is het?</Heading>
+          <Image src={waarimg} alt="Foto Waar" w="50%" />
+          <Text>
+            Een Herenboerderij is 15 tot 20 hectare groot en ligt bij voorkeur dichtbij de woonplaats van de Herenboeren. 
+            Als blijkt dat er genoeg geïnteresseerden zijn, gaan we samen met anderen op zoek naar geschikte gronden in de buurt van Roermond.
+          </Text>
+        </Box>
+      </Container>
     </Box>
   );
 };
