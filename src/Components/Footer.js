@@ -15,7 +15,7 @@ const Footer = () => {
   };
 
   return (
-    <Box as="footer" bg="green.300" color="black" py={10} px={5}>
+    <Box as="footer" bg="#a1c33e" color="black" py={10} px={5}>
       <VStack spacing={10} align="stretch" maxW="1200px" mx="auto">
         <Grid templateColumns={{ base: '1fr', md: 'repeat(3, 1fr)' }} gap={80}>
           <Box>

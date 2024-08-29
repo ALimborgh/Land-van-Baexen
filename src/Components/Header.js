@@ -17,7 +17,7 @@ const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box px={4} bg="green.300" boxShadow="md" position="sticky" top="0" zIndex="1000">
+    <Box px={4} bg="#a1c33e" boxShadow="md" position="sticky" top="0" zIndex="1000">
       <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
         <Flex alignItems={'center'}>
           <Link as={RouterLink} to="/">
