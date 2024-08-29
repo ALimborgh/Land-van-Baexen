@@ -16,7 +16,7 @@ const Header = () => {
 
 
   return (
-    <Box  px={4} boxShadow="md" position="sticky" top="0" zIndex="1000">
+    <Box  px={4} bg="green.300" boxShadow="md" position="sticky" top="0" zIndex="1000">
       <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
         <IconButton
           size={'md'}
@@ -35,13 +35,16 @@ const Header = () => {
             Home
           </Link>
           <Link as={RouterLink} to="/about" >
-            Over mij
+            About
           </Link>
-          <Link as={RouterLink} to="/projects" >
-            Projecten
+          <Link as={RouterLink} to="/news" >
+            News
           </Link>
-          <Link as={RouterLink} to="/resume" >
-            CV
+          <Link as={RouterLink} to="/what" >
+            What
+          </Link>
+          <Link as={RouterLink} to="/Q&A" >
+            Q&A
           </Link>
           <Link as={RouterLink} to="/contact" >
             Contact
@@ -56,13 +59,16 @@ const Header = () => {
               Home
             </Link>
             <Link as={RouterLink} to="/about" onClick={onClose} >
-              Over mij
+              About
             </Link>
-            <Link as={RouterLink} to="/projects" onClick={onClose} >
-              Projecten
+            <Link as={RouterLink} to="/news" onClick={onClose} >
+              News
             </Link>
-            <Link as={RouterLink} to="/resume" onClick={onClose} >
-              CV
+            <Link as={RouterLink} to="/what" onClick={onClose} >
+              What
+            </Link>
+            <Link as={RouterLink} to="/Q&A" onClick={onClose} >
+              Q&A
             </Link>
             <Link as={RouterLink} to="/contact" onClick={onClose} >
               Contact

@@ -13,7 +13,7 @@ const Footer = () => {
   };
 
   return (
-    <Box as="footer" bg="orange.900" color="white" py={10} px={5}>
+    <Box as="footer" bg="green.300" color="white" py={10} px={5}>
       <VStack spacing={10} align="stretch" maxW="1200px" mx="auto">
         <HStack justify="space-between" align="start" flexWrap="wrap" spacing={8}>
           <Box>
