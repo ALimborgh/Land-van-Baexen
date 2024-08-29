@@ -23,7 +23,7 @@ const Header = () => {
       <Flex h={16} alignItems={'center'} justifyContent={'center'} position="relative">
         <Link as={RouterLink} to="/" position="absolute" left="0%">
           <Box>
-            <Image src={logo} alt="Land van Baexem" objectFit="contain" width="100px" />
+            <Image src={logo} alt="Land van Baexem" objectFit="cover" width="100px" />
           </Box>
         </Link>
         <IconButton
