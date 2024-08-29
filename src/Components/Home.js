@@ -21,7 +21,7 @@ const Home = () => {
             Wij willen grip op ons eten, gezond eten, weten waar het vandaan komt en hoe het geproduceerd wordt.
           </Text>
         </Box>
-        <Grid templateColumns="repeat(3, 1fr)" gap={6}>
+        <Grid templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }} gap={6}>
           <Box as="section" mb={8}>
             <Heading as="h2" size="md">Wat is een Land van Baexen boerderij?</Heading>
             <Image src={watimg} alt="Foto Wat" w="100%" />
