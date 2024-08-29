@@ -9,10 +9,10 @@ import waarimg from '../Assets/Images/Ivar-Pel-33-1024x683-600x300.jpg';
 const Home = () => {
   return (
     <Box>
-      <Image src={headerimg} alt="Land van Beaxen Header" w="100%" />
+      <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
       <Container as="main" maxW="container.xl" py={8}>
         <Box as="section" mb={8}>
-          <Heading as="h2" size="md">Herenboeren Roermond</Heading>
+          <Heading as="h2" size="md">Land van Baexen</Heading>
           <Text>Update:</Text>
           <Text>Er is een lokatie gevonden en Herenboeren Roermond heet voortaan Land van Baexen.</Text>
           <Text>Voor vragen: <Link href="mailto:info@landvanbaexen.nl" color="blue.500">info@landvanbaexen.nl</Link></Text>
@@ -23,7 +23,7 @@ const Home = () => {
         </Box>
         <Grid templateColumns="repeat(3, 1fr)" gap={6}>
           <Box as="section" mb={8}>
-            <Heading as="h2" size="md">Wat is een Herenboerderij?</Heading>
+            <Heading as="h2" size="md">Wat is een Land van Baexen boerderij?</Heading>
             <Image src={watimg} alt="Foto Wat" w="100%" />
             <Text>
               Wij willen een goed georganiseerde coöperatieve boerderij opzetten. 
