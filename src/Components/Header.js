@@ -11,30 +11,35 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { Link as RouterLink } from 'react-router-dom';
-import logo from '../Assets/Images/logo_herenboeren_roermond_wit.png';
+import logo from '../Assets/Images/Logo_opbeige.png';
+/*import logo2 from '../Assets/Images/Logo_optransparant.png';*/
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
     <Box px={4} bg="#a1c33e" boxShadow="md" position="sticky" top="0" zIndex="1000">
-      <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-        <Flex alignItems={'center'}>
-          <Link as={RouterLink} to="/">
-            <Image src={logo} alt="Land van Baexem" />
-          </Link>
-        </Flex>
+      <Flex h={16} alignItems={'center'} justifyContent={'center'} position="relative">
+        <Link as={RouterLink} to="/" position="absolute" left="0%">
+          <Box>
+            <Image src={logo} alt="Land van Baexem" objectFit="contain" width="100px" />
+          </Box>
+        </Link>
         <IconButton
           size={'md'}
           icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
           aria-label={'Open Menu'}
           display={{ md: 'none' }}
           onClick={isOpen ? onClose : onOpen}
+          position="absolute"
+          right={4}
         />
         <HStack
           as={'nav'}
           spacing={4}
           display={{ base: 'none', md: 'flex' }}
+          position="absolute"
+          right={4}
         >
           <Link as={RouterLink} to="/">Home</Link>
           <Link as={RouterLink} to="/what">What</Link>
