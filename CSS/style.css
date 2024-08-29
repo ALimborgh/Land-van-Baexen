@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+header img {
+    width: 99.1vw;
+    padding: auto;
+    margin: auto;
+}
+
+/* Section Styles */
+section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Flexbox Container for Hoe, Wat, Waar */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: red;
+    text-align: center;
+}
+
+
+/* Footer Styles */
+footer {
+    display: flex;
+    background-color: red;
+    text-align: center;
+}
+
+footer img {
+    display: flex;
+    width: 2rem;
+    height: auto;
+    margin: auto;
+    padding: 0;
+}
