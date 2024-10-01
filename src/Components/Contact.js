@@ -10,8 +10,7 @@ const Contact = () => {
         <Box as="section" mb={8}>
           <Heading as="h2" size="md">Contact</Heading>
           <Text>
-            Er is een lokatie gevonden en vanaf nu kan je ons bereiken op <Link href="mailto:info@landvanbaexen.nl" color="blue.500">info@landvanbaexen.nl</Link>. 
-            De website wordt zo snel mogelijk aangepast, neem gerust contact met ons op bij vragen!
+            Je kunt ons bereiken via <Link href="mailto:info@landvanbaexen.nl" color="blue.500">info@landvanbaexen.nl</Link>. 
           </Text>
         </Box>
       </Container>
