@@ -12,13 +12,15 @@ const Home = () => {
       <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
       <Container as="main" maxW="container.xl" py={8}>
         <Box as="section" mb={8}>
-          <Heading as="h2" size="md">Land van Baexen</Heading>
-          <Text>Update:</Text>
-          <Text>Er is een lokatie gevonden en Herenboeren Roermond heet voortaan Land van Baexen.</Text>
-          <Text>Voor vragen: <Link href="mailto:info@landvanbaexen.nl" color="blue.500">info@landvanbaexen.nl</Link></Text>
           <Text>
             Land van Baexen is een initiatief van een groep inwoners uit de regio Roermond. 
-            Wij willen grip op ons eten, gezond eten, weten waar het vandaan komt en hoe het geproduceerd wordt.
+            Wij willen grip op ons eten, gezond eten, weten waar het vandaan komt en hoe het geproduceerd wordt. 
+            We willen erop kunnen vertrouwen dat ons eten eerlijk is geproduceerd, met respect voor de boer, de dieren en de natuur.
+            </Text>
+          <Text>
+            We hebben in Swalmen de mogelijkheid gevonden om in de omgeving van Roermond te komen tot een kleinschalig gemengd boerenbedrijf;  
+            Want het is toch fantastisch als ons eten in onze eigen omgeving wordt geproduceerd? 
+            En wat is er leuker dan een boerderij te hebben waar je van eet?
           </Text>
         </Box>
         <Grid templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }} gap={6}>
