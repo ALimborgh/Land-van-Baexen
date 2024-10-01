@@ -5,8 +5,6 @@ import Header from '../src/Components/Header';
 import Footer from '../src/Components/Footer';
 import About from '../src/Components/About';
 import News from '../src/Components/News';
-import What from '../src/Components/What';
-import QA from '../src/Components/Q&A';
 import Contact from '../src/Components/Contact';
 
 function App() {

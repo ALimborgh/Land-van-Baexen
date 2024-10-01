@@ -33,10 +33,8 @@ const Footer = () => {
             <Heading as="h3" size="md" mb={4}>Direct naar</Heading>
             <VStack align="start" spacing={2}>
               <Link as={RouterLink} to="/" onClick={scrollToTop}>Home</Link>
-              <Link as={RouterLink} to="About" onClick={scrollToTop}>About</Link>
-              <Link as={RouterLink} to="News" onClick={scrollToTop}>News</Link>
-              <Link as={RouterLink} to="What" onClick={scrollToTop}>What</Link>
-              <Link as={RouterLink} to="Q&A" onClick={scrollToTop}>Q&A</Link>
+              <Link as={RouterLink} to="About" onClick={scrollToTop}>Over ons</Link>
+              <Link as={RouterLink} to="News" onClick={scrollToTop}>Nieuws</Link>
               <Link as={RouterLink} to="Contact" onClick={scrollToTop}>Contact</Link>
             </VStack>
           </Box>

@@ -43,10 +43,8 @@ const Header = () => {
           right={4}
         >
           <Link as={RouterLink} to="/">Home</Link>
-          <Link as={RouterLink} to="/what">What</Link>
-          <Link as={RouterLink} to="/about">About</Link>
-          <Link as={RouterLink} to="/Q&A">Q&A</Link>
-          <Link as={RouterLink} to="/news">News</Link>
+          <Link as={RouterLink} to="/about">Over ons</Link>
+          <Link as={RouterLink} to="/news">Nieuws</Link>
           <Link as={RouterLink} to="/contact">Contact</Link>
         </HStack>
       </Flex>
@@ -54,10 +52,8 @@ const Header = () => {
         <Box pb={4} display={{ md: 'none' }}>
           <Stack as={'nav'} spacing={4}>
             <Link as={RouterLink} to="/">Home</Link>
-            <Link as={RouterLink} to="/what">What</Link>
-            <Link as={RouterLink} to="/about">About</Link>
-            <Link as={RouterLink} to="/Q&A">Q&A</Link>
-            <Link as={RouterLink} to="/news">News</Link>
+            <Link as={RouterLink} to="/about">Over ons</Link>
+            <Link as={RouterLink} to="/news">Nieuws</Link>
             <Link as={RouterLink} to="/contact">Contact</Link>
           </Stack>
         </Box>
