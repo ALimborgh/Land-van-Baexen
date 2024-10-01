@@ -72,15 +72,6 @@ const Home = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-            <iframe
-                title="weather-widget"
-                width="50%"
-                height="290px"
-                frameBorder="0"
-                scrolling="no"
-                loading="lazy"
-                src="https://www.weeronline.nl/widget/activity?id=4058095&activity=gardening"
-            ></iframe>
           </Box>
 
         </Grid>
