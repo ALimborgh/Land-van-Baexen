@@ -5,7 +5,7 @@ const FooterYear = () => {
 
   return (
     <Box as="footer" color="black" py={4} textAlign="center">
-      <Text id="year">Land van Baexen © {currentYear}</Text>
+      <Text id="year">Land van Baexen - Samen duurzaam voedsel produceren © {currentYear}</Text>
     </Box>
   );
 };

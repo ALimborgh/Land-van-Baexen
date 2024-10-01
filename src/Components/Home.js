@@ -58,7 +58,7 @@ const Home = () => {
           </Box>
 
           <Box as="section" mb={8}>
-          <Heading as="h2" size="md">Waar</Heading>
+          <Heading as="h2" size="md">Waar is de boerderij?</Heading>
             <Text align="center">
               Land van Baexen, Beeselseweg, 6071 PM Swalmen
             </Text>

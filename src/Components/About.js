@@ -10,8 +10,11 @@ const About = () => {
         <Box as="section" mb={8}>
           <Heading as="h2" size="md">Wie zijn wij?</Heading>
           <Text>
-            Het bestuur en kartrekkerscomité van voorheen Herenboeren Roermond, nu Land van Baexen, stelt zich kort voor:
-            (deze website wordt binnenkort aangepast met de nieuwe naam)
+            Wij gaan een goed georganiseerde boerderij opzetten, 
+            waar puur en eerlijk voedsel wordt geproduceerd: groenten, aardappelen, fruit, eieren, rund-, varkens- en kippenvlees. 
+            Alles van een hoge kwaliteit en voor een prijs die vergelijkbaar is met die van de supermarkt. 
+            Het wordt een plek waar het goed toeven is voor mens en dier. 
+            Een ervaren boer zal verantwoordelijk zijn voor het werk op de boerderij.
           </Text>
         </Box>
       </Container>
