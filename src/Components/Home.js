@@ -74,6 +74,10 @@ const Home = () => {
             ></iframe>
           </Box>
 
+          <Box as="section" mb={8}>
+            <Heading as="h2" size="md">Laatste Nieuwsbrief</Heading>
+          </Box>
+
         </Grid>
       </Container>
     </Box>
