@@ -4,7 +4,6 @@ import { Link as RouterLink} from 'react-router-dom';
 import headerimg from '../Assets/Images/herenboeren_kopafbeelding.jpg';
 import watimg from '../Assets/Images/Ivar-Pel-10-1024x683-600x300.jpg';
 import hoeimg from '../Assets/Images/Uitleveren-foto-Marc-Bolsius-2-1024x683-600x300.jpg';
-import waarimg from '../Assets/Images/Ivar-Pel-33-1024x683-600x300.jpg';
 import ikdoemee from '../Assets/Images/pngimg.com - buttons_PNG179.png';
 
 const Home = () => {
