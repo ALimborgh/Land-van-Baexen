@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import headerimg from '../Assets/Images/herenboeren_kopafbeelding.jpg';
 import watimg from '../Assets/Images/Ivar-Pel-10-1024x683-600x300.jpg';
 import hoeimg from '../Assets/Images/Uitleveren-foto-Marc-Bolsius-2-1024x683-600x300.jpg';
-import ikdoemee from '../Assets/Images/pngimg.com - buttons_PNG179.png';
+import ikdoemee from '../Assets/Images/Aanmelden-button.png';
 import nieuwsbrieven from '../Assets/Nieuwsbrieven/Nieuwsbrieven';
 
 const Home = () => {
@@ -76,7 +76,7 @@ const Home = () => {
               display="inline-block"
               textAlign="center"
             >
-              <Image src={ikdoemee} alt="Ik doe mee" boxSize="150px" />
+              <Image src={ikdoemee} alt="Ik doe mee" height="120px" />
             </Link>
           </Box>
 

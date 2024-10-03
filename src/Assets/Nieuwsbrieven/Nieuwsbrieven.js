@@ -8,11 +8,18 @@ const nieuwsbrieven =[
     },
     {
         id: 2,
-        title: "Nieuwsbrief Augustus 2024",
-        date: "08-22-2024",
-        description: "Oprichtingsvergadering 21 september 2024",
-        link: "https://landvanbaexen.email-provider.eu/web/p5zkub7rma/iosarec2sf/d1mmbrmf3o/fmi8cnl0j1"
+        title: "Land van Ons September 2024",
+        date: "09-10-2024",
+        description: "Land van Ons: Landscoop september 2024",
+        link: "https://landvanons.nl/wp-content/uploads/2024/09/Landscoop-september-2024.pdf"
     },
+    {
+        id: 3,
+        title: "Oprichtingsavond",
+        date: "09-23-2024",
+        description: "Oprichtingsavond 23 september 2024",
+        link: "https://landvanbaexen.email-provider.eu/web/p5zkub7rma/iosarec2sf/d1mmbrmf3o/fmi8cnl0j1"
+    }
 ]
 
 export default nieuwsbrieven;
