@@ -6,7 +6,7 @@ import LvO from '../Assets/Images/LvO-logo-donkergroen-RGB-handtekening.png';
 
 const Footer = () => {
   return (
-    <Box as="footer" bg="#a1c33e" color="black" py={10} px={5}>
+    <Box as="footer" bg="#a1c33e" color="black" py={10} px={5} boxShadow="md" mt="auto">
       <VStack spacing={10} align="stretch" maxW="1200px" mx="auto">
         <Grid templateColumns={{ base: '1fr', md: 'repeat(3, 1fr)' }} gap={8}>
           <Box>
@@ -15,7 +15,7 @@ const Footer = () => {
           <Box>
             <Text>
               Wil je meer weten: mail aan{' '}
-              <Link href="mailto:info@landvanbaexen.nl" color="blue.500">
+              <Link href="mailto:info@landvanbaexen.nl" color="blue.500" _hover={{ textDecoration: 'underline' }}>
                 info@landvanbaexen.nl
               </Link>
             </Text>
@@ -23,10 +23,10 @@ const Footer = () => {
           <Box>
             <HStack spacing={4}>
               <Link href="https://www.facebook.com/LandVanBaexen" target="_blank" rel="noopener noreferrer">
-                <Image src={facebook} alt="" boxSize="24px" _hover={{ opacity: 0.8 }} />
+                <Image src={facebook} alt="Facebook" boxSize="24px" _hover={{ opacity: 0.8 }} />
               </Link>
               <Link href="https://landvanons.nl/" target="_blank" rel="noopener noreferrer">
-                <Image src={LvO} alt="" boxSize="24px" _hover={{ opacity: 0.8 }} />
+                <Image src={LvO} alt="Land van Ons" boxSize="24px" _hover={{ opacity: 0.8 }} />
               </Link>
             </HStack>
           </Box>
