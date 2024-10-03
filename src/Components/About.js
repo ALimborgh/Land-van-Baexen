@@ -4,8 +4,12 @@ import headerimg from '../Assets/Images/herenboeren_kopafbeelding.jpg';
 
 const About = () => {
   return (
+    <>
     <Box>
       <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
+    </Box>
+    
+    <Box>
       <Box as="main" maxW="container.xl" py={8} mx="auto">
         <Box as="section" mb={8} p={4} borderRadius="md" boxShadow="md">
           <Heading as="h2" size="md" mb={4}>Wie zijn wij?</Heading>
@@ -19,6 +23,7 @@ const About = () => {
         </Box>
       </Box>
     </Box>
+    </>
   );
 };
 

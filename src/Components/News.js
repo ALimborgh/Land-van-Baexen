@@ -8,8 +8,12 @@ const News = () => {
   const sortedNewsletters = nieuwsbrieven.sort((a, b) => new Date(b.date) - new Date(a.date));
 
   return (
+    <>
     <Box>
       <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
+    </Box>
+
+    <Box>
       <Box as="main" maxW="container.xl" py={8} mx="auto">
         <Box as="section" mb={8} p={4} borderRadius="md" boxShadow="md">
           <Heading as="h2" size="md" mb={4}>Nieuws</Heading>
@@ -29,6 +33,7 @@ const News = () => {
         </VStack>
       </Box>
     </Box>
+    </>
   );
 };
 

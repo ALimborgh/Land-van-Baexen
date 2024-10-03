@@ -12,9 +12,13 @@ const Home = () => {
   const latestNewsletter = nieuwsbrieven.sort((a, b) => new Date(b.date) - new Date(a.date))[0];
 
   return (
+    <>
     <Box>
       <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
-      <Box as="main" maxW="container.xl" mx="auto" py={8}>
+    </Box>
+    
+    <Box>
+      <Box as="main" maxW="container.xl" mx="auto" py={8} >
         <Box as="section" mb={8} p={4} borderRadius="md" boxShadow="md">
           <Text mb={4}>
             Land van Baexen is een initiatief van een groep inwoners uit de regio Roermond. 
@@ -107,6 +111,7 @@ const Home = () => {
         </Grid>
       </Box>
     </Box>
+    </>
   );
 };
 
