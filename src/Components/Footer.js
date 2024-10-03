@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <Box as="footer" bg="#a1c33e" color="black" py={10} px={5} boxShadow="md" mt="auto">
       <VStack spacing={10} align="stretch" maxW="1200px" mx="auto">
-        <Grid templateColumns={{ base: '1fr', md: 'repeat(3, 1fr)' }} gap={8}>
+        <Grid templateColumns={{ base: '1fr', md: 'repeat(3, 1fr)' }} gap={8} justifyContent="space-evenly" alignItems="center">
           <Box>
             <FooterYear />
           </Box>
-          <Box>
+          <Box textAlign="center">
             <Text>
               Wil je meer weten: mail aan{' '}
               <Link href="mailto:info@landvanbaexen.nl" color="blue.500" _hover={{ textDecoration: 'underline' }}>
@@ -21,7 +21,7 @@ const Footer = () => {
             </Text>
           </Box>
           <Box>
-            <HStack spacing={4}>
+            <HStack spacing={4} justifyContent="center" alignItems="center">
               <Link href="https://www.facebook.com/LandVanBaexen" target="_blank" rel="noopener noreferrer">
                 <Image src={facebook} alt="Facebook" boxSize="24px" _hover={{ opacity: 0.8 }} />
               </Link>
