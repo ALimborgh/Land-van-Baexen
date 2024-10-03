@@ -5,10 +5,10 @@ import headerimg from '../Assets/Images/herenboeren_kopafbeelding.jpg';
 const About = () => {
   return (
     <Box>
-      <Image src={headerimg} alt="Land van Beaxen Header" w="100%" />
+      <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
       <Container as="main" maxW="container.xl" py={8}>
-        <Box as="section" mb={8}>
-          <Heading as="h2" size="md">Wie zijn wij?</Heading>
+        <Box as="section" mb={8} p={4} borderRadius="md" boxShadow="md">
+          <Heading as="h2" size="md" mb={4}>Wie zijn wij?</Heading>
           <Text>
             Wij gaan een goed georganiseerde boerderij opzetten, 
             waar puur en eerlijk voedsel wordt geproduceerd: groenten, aardappelen, fruit, eieren, rund-, varkens- en kippenvlees. 
