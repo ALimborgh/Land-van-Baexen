@@ -16,7 +16,7 @@ const Home = () => {
     <Box>
       <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
     </Box>
-    
+
     <Box>
       <Box as="main" maxW="container.xl" mx="auto" py={8} >
         <Box as="section" mb={8} p={4} borderRadius="md" boxShadow="md">
@@ -32,6 +32,20 @@ const Home = () => {
           </Text>
         </Box>
 
+        <Box as="section" mb={8} p={4} borderRadius="md" boxShadow="md">
+          <Heading as="h2" size="md" mb={4}>Belangrijke data</Heading>
+          <Text mb={4}>
+            Zaterdag 28 september is de eerste plukdag.
+            Meer info <Link 
+            href="https://landvanbaexen.email-provider.eu/web/p5zkub7rma/iosarec2sf/d1mmbrmf3o/fmi8cnl0j1" 
+            isExternal
+            color="blue.500"
+            >
+              hier
+            </Link>.
+          </Text>
+        </Box>
+            
         <Grid templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)', lg: 'repeat(2, 1fr)' }} gap={6}>
           <Box as="section" mb={8} p={4} borderRadius="md" boxShadow="md">
             <Heading as="h2" size="md" mb={4}>Wat is een Land van Baexen boerderij?</Heading>
