@@ -5,8 +5,12 @@ import headerimg from '../Assets/Images/herenboeren_kopafbeelding.jpg';
 import watimg from '../Assets/Images/Ivar-Pel-10-1024x683-600x300.jpg';
 import hoeimg from '../Assets/Images/Uitleveren-foto-Marc-Bolsius-2-1024x683-600x300.jpg';
 import ikdoemee from '../Assets/Images/pngimg.com - buttons_PNG179.png';
+import nieuwsbrieven from '../Assets/Nieuwsbrieven/Nieuwsbrieven';
 
 const Home = () => {
+  // Sort newsletters by date in descending order and get the latest one
+  const latestNewsletter = nieuwsbrieven.sort((a, b) => new Date(b.date) - new Date(a.date))[0];
+
   return (
     <Box>
       <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
@@ -76,6 +80,16 @@ const Home = () => {
 
           <Box as="section" mb={8}>
             <Heading as="h2" size="md">Laatste Nieuwsbrief</Heading>
+            {latestNewsletter && (
+              <Box p={4} borderWidth="1px" borderRadius="md">
+                <Heading as="h3" size="sm">{latestNewsletter.title}</Heading>
+                <Text>{new Date(latestNewsletter.date).toLocaleDateString()}</Text>
+                <Text>{latestNewsletter.description}</Text>
+                <Link href={latestNewsletter.link} color="blue.500" isExternal>
+                  Lees meer
+                </Link>
+              </Box>
+            )}
           </Box>
 
         </Grid>
