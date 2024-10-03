@@ -1,12 +1,12 @@
 import React from 'react';
-import { Box, Container, Heading, Text, Link, Image } from '@chakra-ui/react';
+import { Box, Heading, Text, Link, Image } from '@chakra-ui/react';
 import headerimg from '../Assets/Images/herenboeren_kopafbeelding.jpg';
 
 const Contact = () => {
   return (
     <Box>
       <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
-      <Container as="main" maxW="container.xl" py={8}>
+      <Box as="main" maxW="container.xl" py={8} mx="auto">
         <Box as="section" mb={8} p={4} borderRadius="md" boxShadow="md">
           <Heading as="h2" size="md" mb={4}>Contact</Heading>
           <Text>
@@ -31,7 +31,7 @@ const Contact = () => {
               referrerPolicy="no-referrer-when-downgrade"
             />
         </Box>
-      </Container>
+      </Box>
     </Box>
   );
 };

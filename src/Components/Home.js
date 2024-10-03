@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Heading, Link, Image, Text, Container, Grid } from '@chakra-ui/react';
+import { Box, Heading, Link, Image, Text, Grid } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 import headerimg from '../Assets/Images/herenboeren_kopafbeelding.jpg';
 import watimg from '../Assets/Images/Ivar-Pel-10-1024x683-600x300.jpg';
@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <Box>
       <Image src={headerimg} alt="Land van Baexen Header" w="100%" />
-      <Container as="main" maxW="container.xl" py={8}>
+      <Box as="main" maxW="container.xl" mx="auto" py={8}>
         <Box as="section" mb={8} p={4} borderRadius="md" boxShadow="md">
           <Text mb={4}>
             Land van Baexen is een initiatief van een groep inwoners uit de regio Roermond. 
@@ -105,7 +105,7 @@ const Home = () => {
             )}
           </Box>
         </Grid>
-      </Container>
+      </Box>
     </Box>
   );
 };
